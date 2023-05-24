@@ -5,7 +5,7 @@ module.exports = defineConfig({
     baseUrl:'https://web.vepaar.com/',
     setupNodeEvents(on, config) {
       // implement node event listeners here 
-       require('d:/Vepaar Automation/cypress/plugins')(on);
+      //  require('d:/IntegrateJenkinsAndGit/cypress/plugins')(on);
     },
     video:false,
   },
